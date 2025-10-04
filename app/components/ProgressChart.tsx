@@ -1,5 +1,6 @@
+'use client';
 import { ResponsiveContainer, Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Tooltip } from 'recharts';
-export default function ProgressChart({ rows }: { rows: { topic: string; mastery: number; }[] }) {
+export default function ProgressChart({ rows }: { rows: { topic: string; mastery: number }[] }) {
 return (
 <div className="h-80">
 <ResponsiveContainer width="100%" height="100%">
