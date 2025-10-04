@@ -1,3 +1,1 @@
-export async function GET() {
-// aggregate attempts by topic; return mastery metrics + recommendations
-}
+export async function GET() { return Response.json({ rows: [{ topic: 'Quadratics', mastery: 0.42 }] }); }
