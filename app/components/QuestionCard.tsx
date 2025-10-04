@@ -1,3 +1,4 @@
+'use client';
 import 'katex/dist/katex.min.css';
 import TeX from '@matejmazur/react-katex';
 
